@@ -1,0 +1,17 @@
+Chaves SSH e Tokens
+SSH -> Forma segura de conectar duas máquinas pela internet. É uma assinatura.
+Gerar a chave ( ssh-keygen -t ed25519 -C ivan.parreira@gmail.com )
+Colocar no github (setting -  ssh)
+Iniciar o processo ( eval $(ssh-agent -S) )
+Adicionar (ssh-add id_ed25519)
+
+Comandos GIT
+git init
+git status
+git add (nome-do-arquivo) (*) (.)
+git commit -m "mensagem-texto"
+git config --global user.nome "nome"
+git config --global user.email "email"
+git config --list
+git remote add origin https://github.com/ivanparreira/teste-git.git
+git remote -v (visualizar as listas cadastradas)
